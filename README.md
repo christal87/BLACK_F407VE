@@ -99,6 +99,10 @@ screen /dev/ttyACM0 115200
 
 ### Peripherals
 
+![board](docs/stm32f407vet6_right01.png)
+![board](docs/stm32f407vet6_left02.png)
+![board](docs/stm32f407vet6_st-link02.png)
+
 #### TFT (J1)
 
 * 1 GND
