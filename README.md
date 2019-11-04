@@ -1,3 +1,5 @@
+************************************changed to work with micropython 1.11*************************************
+
 # MCUDev Black STM32F407VET6
 
 MicroPython board definition files for the MCUDev black STM32F407VET6 dev board.
