@@ -119,10 +119,12 @@
 #define MICROPY_HW_LED_ON(pin)      (mp_hal_pin_low(pin))
 #define MICROPY_HW_LED_OFF(pin)     (mp_hal_pin_high(pin))
 
-// SD card detect switch
-//	#define MICROPY_HW_SDCARD_DETECT_PIN        (pin_A8)	// nope
-//	#define MICROPY_HW_SDCARD_DETECT_PULL       (GPIO_PULLUP)
-//	#define MICROPY_HW_SDCARD_DETECT_PRESENT    (GPIO_PIN_RESET)
+// SD card detect switch (hw switch is not present, A8 is just a placeholder)
+// consider moving it if you enable I2C3_SCL, because it uses the same GPIO pin
+#define MICROPY_HW_SDCARD_DETECT_PIN        (pin_A8)	// nope
+#define MICROPY_HW_SDCARD_DETECT_PULL       (GPIO_PULLUP)
+#define MICROPY_HW_SDCARD_DETECT_PRESENT    (1) // detect is always on
+//#define MICROPY_HW_SDCARD_DETECT_PRESENT    (GPIO_PIN_RESET)
 // 1      - PC10 - DAT2/RES
 // 2      - PC11 - CD/DAT3/CS
 // 3      - PD2  - CMD/DI
