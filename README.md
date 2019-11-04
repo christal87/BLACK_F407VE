@@ -6,7 +6,7 @@ MicroPython board definition files for the MCUDev black STM32F407VET6 dev board.
 
 **Brand:** MCUDev
 
-**Markings:** STM32F4XX STM32_F4VE V2.0 1509
+**Markings:** STM32F4XX STM32_F4VE Ver: V2.1 SN:(six digit SN)
 
 ![board](docs/STM32F407VET6.jpg)
 
