@@ -1,4 +1,4 @@
-************************************changed to work with micropython 1.11*************************************
+###changed fork from mcauser to work with micropython 1.11 !
 
 # MCUDev Black STM32F407VET6
 
